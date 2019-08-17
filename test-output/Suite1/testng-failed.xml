@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test thread-count="5" name="Test_packages(failed)">
+    <classes>
+      <class name="third_payment.rabbitmq.RabbitMq">
+        <methods>
+          <include name="apartment_slow"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- third_payment.rabbitmq.RabbitMq -->
+    </classes>
+  </test> <!-- Test_packages(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
